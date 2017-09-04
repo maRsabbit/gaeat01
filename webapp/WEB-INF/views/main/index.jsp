@@ -21,6 +21,44 @@
 <body id="page-top">
 
 	<c:import url="/WEB-INF/views/includes/headNav.jsp"></c:import>
+	
+	
+		<!-- carousel -->
+	<div id="carousel-generic" class="carousel slide">
+	
+         <!--  Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-generic" data-slide-to="3"></li>      
+          </ol>
+  
+         <!--   Carousel items -->
+           <div class="carousel-inner">
+              <div class="item active">
+                 <img src="${pageContext.request.contextPath}/assets/img/carousel/img1.jpg" alt="First slide">
+              </div>
+              <div class="item">
+                 <img src="${pageContext.request.contextPath}/assets/img/carousel/img2.jpeg" alt="Second slide">              
+              </div>
+              <div class="item">
+                 <img src="${pageContext.request.contextPath}/assets/img/carousel/img3.jpg" alt="Third slide">               
+              </div>
+              <div class="item">
+                 <img src="${pageContext.request.contextPath}/assets/img/carousel/img4.jpg" alt="Fourth slide">               
+              </div>
+           </div>
+         <!--  Controls -->
+            <a class="left carousel-control" href="#carousel-generic" data-slide="prev">
+               <img src="${pageContext.request.contextPath}/assets/img/carousel/left.png" class="control">
+            </a>
+            <a class="right carousel-control" href="#carousel-generic" data-slide="next">
+              <img src="${pageContext.request.contextPath}/assets/img/carousel/right.png" class="control">
+            </a>
+        </div>
+	
+	
   
 </body>
 </html>

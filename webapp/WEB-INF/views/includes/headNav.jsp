@@ -40,10 +40,10 @@
 				</script>
 				
 				<!-- searchbar -->
-				<div class="col-xs-9">
-					<div id="custom-search-input">
-						<div class="input-group">
-							<input type="text" class="search-query form-control" placeholder="Search" /> <span class="input-group-btn">
+				<div class="col-xs-10">
+					<div id="custom-search-input" >
+						<div class="input-group" >
+							<input type="text" class="search-query form-control" style = "margin-bottom:10px; margin-top:8px" placeholder="Search" /> <span class="input-group-btn">
 								<button class="btn btn-danger" type="button">
 									<span class=" glyphicon glyphicon-search"></span>
 								</button>
@@ -54,9 +54,9 @@
 		
 
 			<!-- mainLogo -->
-			<div class="col-xs-2">
+			<div class="col-xs-1">
 			
-					<a class="navbar-brand" href="#"><img src="${pageContext.request.contextPath}/assets/img/logo.png" alt="logo.png"></a>
+					<a href="#"><img src="${pageContext.request.contextPath}/assets/img/mainLogo.png" style = "margin-bottom:10px; margin-top:10px; margin-left:100px;"  alt="logo.png"></a>
 					
 			</div>
 				<!--   <div class = "collapse navbar-collapse navbar-left navbar-ex1-collapse">

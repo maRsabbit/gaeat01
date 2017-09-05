@@ -28,6 +28,10 @@ public class UserController {
 		
 		return "list/list";
 	}
-	
+	@RequestMapping(value="registform", method=RequestMethod.GET)
+	public String registform() {
+		
+		return "user/registform";
+	}
 
 }

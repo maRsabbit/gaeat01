@@ -25,7 +25,7 @@
 						<a href="#"> <img src="#" alt="">
 						 profile
 						</a> 
-						<a href="#">사용자의 소개나 설정한 정보를 뿌릴 영역입니다. </a>
+						<a href="#">사용자의 소개나 설정한 정보를 뿌릴 영역입니다.</a>
 						<hr style="border: solid 1px #528540;">
 						<a href="#">board1</a> <a href="#">board2</a> <a href="#">board3</a>
 					</div>

@@ -12,24 +12,32 @@
 <link href="${pageContext.request.contextPath}/assets/css/main.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="${pageContext.request.contextPath}/assets/js/jquery/jquery-1.12.4.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/assets/bootstrap/js/bootstrap.min.js"></script>
+<style>
 
+	.container {
+	
+		padding:30px;
+		align:center;
+	}
+
+</style>
 </head>
 <body>
 
-	<div class = "container-fluid">
+	<div class = "container">
 	
 		<h1>WHO ARE YOU?</h1>
-		<div class = "col-xs-4" style = "background-color:green;">ㅉ
+		<div class = "col-xs-4" style = "background-color:green;  margin-right:10px; width:auto;">
 		<a>
 			<p>저는 채식주의자에요!</p>
 		</a>
 		</div>
-		<div class = "col-xs-4" style = "background-color:yellow;">
+		<div class = "col-xs-4" style = "background-color:yellow;  margin-right:10px; width:auto;">
 		<a>
 			<p>저는 먹으면 안되는 것이 있어요!</p>
 		</a>
 		</div>
-		<div class = "col-xs-4" style = "background-color:blue;">
+		<div class = "col-xs-4" style = "background-color:blue;  margin-right:10px; width:auto;">
 		<a>
 			<p>저는 먹기 싫은 것이 있어요!</p>
 		</a>

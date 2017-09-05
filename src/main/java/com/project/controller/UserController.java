@@ -12,20 +12,22 @@ public class UserController {
 	public String loginform() {
 		
 		return "user/loginform";
-		
 	}
-	
 	@RequestMapping(value="plus", method=RequestMethod.GET)
 	public String writeform() {
 		
 		return "user/plus";
-		
 	}
 	@RequestMapping(value="catalog", method=RequestMethod.GET)
 	public String catalog() {
 		
 		return "user/catalog";
-		
 	}
+	@RequestMapping(value="list", method=RequestMethod.GET)
+	public String list() {
+		
+		return "list/list";
+	}
+	
 
 }

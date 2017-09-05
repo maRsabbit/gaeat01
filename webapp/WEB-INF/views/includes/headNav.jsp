@@ -166,7 +166,7 @@
 				</script>
 				
 				<!-- searchbar -->
-				<div class="col-xs-10" style = "z-index:-1">
+				<div class="col-xs-10" style = "z-inde:-1">
 					<div id="custom-search-input" >
 						<div class="input-group" >
 							<input type="text" class="search-query form-control" style = "margin-bottom:10px; margin-top:8px" placeholder="Search" /> <span class="input-group-btn">

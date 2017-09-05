@@ -40,4 +40,9 @@ public class UserController {
 		return "user/readform";
 	}
 
+	@RequestMapping(value="userpage", method=RequestMethod.GET)
+	public String mypage() {
+		
+		return "user/userpage";
+	}
 }

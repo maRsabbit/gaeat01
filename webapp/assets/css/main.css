@@ -1,13 +1,26 @@
 -- header --
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 
+@font-face{
+	
+	font-family:'NanumBarunGothic';
+	src:url("../fonts/NanumBarunGothic.eot");
+	src:local(""),url("../fonts/NanumBarunGothic.woff") format("woff");
+	
+}
+
+a.hover {text-decoratioin: none;}
+body {font-family: "NanumBarunGothic",  sans-serif; padding-top: 90px; }  
+.container-fluid { padding: 0;}
+
+
+/* nav bar customize */
 .navbar{ background-color: #e6ffe6; border: none; padding-bottom: 10px;  font-family: 'Source Sans Pro', sans-serif; font-weight: 300; 
 		font-size: 18px;height: 90px; text-transform: capitalize; border-bottom: 1px solid #AAAAAA}
 
 .navbar-toggle {position: relative;margin-top: 40px;top: 2px;}
 .navbar-nav { padding-right: 10px;margin-top: 20px; background-color: #fff}
 .navbar-nav li { margin:0 20px; }
-.navbar-brand { padding-left: 20px;}  
 .navbar-collapse { padding-top: 10px; background-color: #fff}
 .navbar-default .navbar-nav>li>a:hover { color: #FF8000} 
 .navbar-default .navbar-nav>li.active>a,
@@ -68,6 +81,7 @@
 	}
 }
 
+/* search부분 */
    #custom-search-input {
         margin:0;
         margin-top: 10px;
@@ -106,3 +120,36 @@
     .search-query:focus + button {
         z-index: 3;   
     }
+    
+    /* 캐러셀 부분 */
+    
+	#carousel-generic .carousel-inner {
+				
+					height: 500px;
+					weidt:1200px;
+			
+					}
+    
+    /* service부분 , 트렌드 부분 */
+    
+    .service .trendBlock{
+    display:block;
+    margin-bottom:40px;
+    }
+    
+    .service .trendImage {
+    float:top;
+    margin-top:40px;
+    }
+    
+    .service .trendText{
+    padding: 20px;
+    text-color: #528540;
+    }
+    
+    .service a:hover .trendText {text-color:red;}
+    
+    
+    
+    
+    

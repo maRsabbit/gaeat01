@@ -10,17 +10,23 @@
 <div class="container-fluid">
 	<div class="container">
 		<nav class="navbar navbar-default navbar-fixed-top"  role="navigation" id="navbar-scroll">
-
+			
+		
 			<!-- toggle -->
 			<div class="container">
+		
+	
 				<div class="col-xs-1">
+				<a id="main" >
+       			<span style="font-size:50px;cursor:pointer ;color:#528540;" onclick="openNav()">&#9776;</span></a>
+				
 					<div id="mySidenav" class="sidenav">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 						<a href="#"> <img src="#" alt="">
 						 profile
 						</a> 
-						<a href="#">사용자의 소개나 설정한 정보를 뿌릴 영역입니다. </a>
-						<hr color="#FDBD0B">
+						<a href="#">사용자의 소개나 설정한 정보를 뿌릴 영역입니다.</a>
+						<hr style="border: solid 1px #528540;">
 						<a href="#">board1</a> <a href="#">board2</a> <a href="#">board3</a>
 					</div>
 				</div>
@@ -55,8 +61,8 @@
 
 			<!-- mainLogo -->
 			<div class="col-xs-1">
-			
-					<a href="#"><img src="${pageContext.request.contextPath}/assets/img/mainLogo.png" style = "margin-bottom:10px; margin-top:10px; margin-left:100px;"  alt="logo.png"></a>
+				
+			<a href="#"><img src="${pageContext.request.contextPath}/assets/img/mainLogo.png" style = "margin-bottom:10px; margin-top:10px; margin-left:100px;"  alt="logo.png"></a>
 					
 			</div>
 				<!--   <div class = "collapse navbar-collapse navbar-left navbar-ex1-collapse">

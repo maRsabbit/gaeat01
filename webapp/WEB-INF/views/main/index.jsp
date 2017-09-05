@@ -265,7 +265,7 @@
         		
         	</div>
         </div>
-       
+       <c:import url="/WEB-INF/views/main/slide.jsp"></c:import>	
 </body>
 
 	<script type="text/javascript">

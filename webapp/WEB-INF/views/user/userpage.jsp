@@ -182,3 +182,16 @@
 			</div>
 		</div>
 	</div>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>	
+	
+	<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>

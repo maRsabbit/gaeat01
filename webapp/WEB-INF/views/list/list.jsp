@@ -217,67 +217,79 @@
 	<!-- 갤러리 -->
 	<div class="container">
 		<div class="row">
+		
 			<div class="col-md-4">
 				<div class="single-blog-item">
 					<div class="blog-thumnail">
-						<a href=""><img src="http://via.placeholder.com/370x275"
-							alt="blog-img"></a>
+						<a href=""><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
 					</div>
 					<div class="blog-content">
 						<h4>
 							<a href="#">Lorem ipsum dolor sit amet</a>
 						</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Sint expedita exercitationem nostrum, eligendi quis, esse quos
-							atque in molestias animi.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Sint expedita exercitationem nostrum, eligendi quis,
+							esse quos atque in molestias animi.</p>
 						<a href="" class="more-btn">View More</a>
 					</div>
-					<span class="blog-date">May 03, 2015</span>
+					<span class="blog-date">좋아요 99</span>
 				</div>
 			</div>
 
 			<div class="col-md-4">
 				<div class="single-blog-item">
 					<div class="blog-thumnail">
-						<a href=""><img
-							src="${pageContext.request.contextPath}/assets/img/carousel/img1.jpg"
-							alt="blog-img"></a>
+						<a href=""><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
 					</div>
 					<div class="blog-content">
 						<h4>
 							<a href="#">Lorem ipsum dolor sit amet</a>
 						</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Sint expedita exercitationem nostrum, eligendi quis, esse quos
-							atque in molestias animi.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Sint expedita exercitationem nostrum, eligendi quis,
+							esse quos atque in molestias animi.</p>
 						<a href="" class="more-btn">View More</a>
 					</div>
-					<span class="blog-date">June 03, 2015</span>
+					<span class="blog-date">좋아요 99</span>
 				</div>
 			</div>
 
 			<div class="col-md-4">
 				<div class="single-blog-item">
 					<div class="blog-thumnail">
-						<a href=""><img src="http://via.placeholder.com/370x275"
-							alt="blog-img"></a>
+						<a href=""><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
 					</div>
 					<div class="blog-content">
 						<h4>
 							<a href="#">Lorem ipsum dolor sit amet</a>
 						</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Sint expedita exercitationem nostrum, eligendi quis, esse quos
-							atque in molestias animi.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit. Sint expedita exercitationem nostrum, eligendi quis,
+							esse quos atque in molestias animi.</p>
 						<a href="" class="more-btn">View More</a>
 					</div>
-					<span class="blog-date">July 03, 2015</span>
+					<span class="blog-date">좋아요 99</span>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 	<script type="text/javascript">
 		
 	</script>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>	
+	
+	<c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>
+	
 </body>
 </html>

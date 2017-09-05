@@ -266,11 +266,28 @@
         	</div>
         </div>
        <c:import url="/WEB-INF/views/main/slide.jsp"></c:import>	
+
+       <c:import url="/WEB-INF/views/includes/footer.jsp"></c:import>	
 </body>
 
 	<script type="text/javascript">
 
 	$(document).ready(function() {
+		
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 200) {
+				$('.top').fadeIn();
+			} else {
+				$('.top').fadeOut();
+			}
+		});
+		$('.top').click(function() {
+			$('html, body').animate({
+				scrollTop : 0
+			}, 400);
+			return false;
+		});
+	});
 	
 		
 	})

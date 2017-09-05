@@ -198,5 +198,37 @@
 	</div>
 </div>
 
+<!-- top 버튼 -->
+	<style id="upload">
+a.top {
+	position: fixed;
+	left: 90%;
+	bottom: 50px;
+	display: none;
+}
+</style>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('.top').fadeIn();
+				} else {
+					$('.top').fadeOut();
+				}
+			});
+			$('.top').click(function() {
+				$('html, body').animate({
+					scrollTop : 0
+				}, 400);
+				return false;
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="a">
+		<a href="#" class="top">Top</a>
+	</div>
 
 

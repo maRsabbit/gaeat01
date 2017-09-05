@@ -36,7 +36,7 @@
 				<!-- 최초 로그인 폼 -->
 			<div class="modal fade" id="login-modal" tabindex="-1" role="dialog"
 				aria-labelledby="myModalLabel" aria-hidden="true"
-				style= "display:none; background-color: rgba(0, 0, 0, 0.5); z-index:1;">
+				style= "display:none; background-color: rgba(0, 0, 0, 0.5); z-index:2;">
 				<div class="modal-dialog" style = "left:0%">
 					<div class="modal-content">
 						<div class="modal-header" align="center">

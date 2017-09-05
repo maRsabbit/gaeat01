@@ -66,7 +66,7 @@
 										</label>
 									</div>
 								</div>
-								<div class="modal-footer">
+								<div class="modal-footer">>>
 									<div>
 										<button type="submit" class="btn btn-primary btn-lg btn-block">로그인</button>
 										<input class="btn btn-lg btn-facebook btn-block" type="submit" value="facebook으로 로그인 하기"> 

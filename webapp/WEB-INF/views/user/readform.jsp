@@ -40,7 +40,6 @@
 						<!-- 카드 끝 -->
 						
 
-
 					</li>
 					<li class="list-group-item"><a href="#seite2"
 						data-toggle="tab" aria-controls="seite2" role="tab"> 스트랩한 글보기 </a></li>

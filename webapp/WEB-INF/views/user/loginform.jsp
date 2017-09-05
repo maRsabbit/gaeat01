@@ -4,14 +4,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link href="${pageContext.request.contextPath}/assets/css/loginform.css"
-	rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/css/loginform.css" rel="stylesheet" type="text/css">
 <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
 <title>Modal Login with jQuery Effects - Bootsnipp.com</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link
-	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
-	rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 <style type="text/css">
 /* #####################################################################
    #
@@ -146,8 +143,7 @@
 }
 </style>
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script
-	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -156,7 +152,7 @@
 	<div class="container">
 		<div class="row">
 			<p class="text-center">
-				<a href="#" class="btn btn-primary btn-lg" role="button"
+				<a href="#" class="btn btn-primary btn-sm" role="button"
 					data-toggle="modal" data-target="#login-modal">로그인</a>
 			</p>
 		</div>

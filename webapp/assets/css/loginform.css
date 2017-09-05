@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+#login-modal{
+	z-index:3;
+}
+
 .white{
     color:#000;
     background-color:#fff;
@@ -72,4 +77,6 @@
     .btn-facebook3.active {
         background-color: #08F934 \9 !important;
     }
+    
+  
   

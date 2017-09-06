@@ -27,7 +27,7 @@
 	})
 	
 	$(function () {
-	  $('[data-toggle="popover"]').popo 
+	  $('[data-toggle="popover"]').popo  
 	</script>
 
 </head>

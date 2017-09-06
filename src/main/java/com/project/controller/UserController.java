@@ -39,6 +39,13 @@ public class UserController {
 		
 		return "user/readform";
 	}
+	
+	/*가입 후 선택 영역*/
+	@RequestMapping(value="identity", method=RequestMethod.GET)
+	public String identity() {
+		
+		return "main/identity";
+	}
 
 	@RequestMapping(value="userpage", method=RequestMethod.GET)
 	public String mypage() {

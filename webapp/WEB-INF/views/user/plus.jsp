@@ -11,6 +11,7 @@
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/assets/js/jquery-1.12.4.js"></script>
 
+
 <title>Insert title here</title>
 </head>
 <body>

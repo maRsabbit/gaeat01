@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<<<<<<< HEAD
 
 <head>
     <meta charset="utf-8">
@@ -34,3 +35,10 @@
 
 </script>
 </body>
+=======
+<div id="footer">
+	<br>
+	<p>(c)Gaeat 2017</p>
+</div>
+<!-- /footer -->
+>>>>>>> branch 'master' of https://github.com/funsadbored2/gaeat01.git

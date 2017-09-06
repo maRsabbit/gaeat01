@@ -108,16 +108,16 @@
 								<div class="col-md-4">
 									<div class="single-blog-item">
 										<div class="blog-thumnail">
-											<a href=""><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
+											<a href="${pageContext.request.contextPath}/user/readform"><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
 										</div>
 										<div class="blog-content">
 											<h4>
-												<a href="#">Lorem ipsum dolor sit amet</a>
+												<a href="${pageContext.request.contextPath}/user/readform">Lorem ipsum dolor sit amet</a>
 											</h4>
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing
 												elit. Sint expedita exercitationem nostrum, eligendi quis,
 												esse quos atque in molestias animi.</p>
-											<a href="" class="more-btn">View More</a>
+											<a href="${pageContext.request.contextPath}/user/readform" class="more-btn">View More</a>
 										</div>
 										<span class="blog-date">좋아요 99</span>
 									</div>
@@ -126,16 +126,16 @@
 								<div class="col-md-4">
 									<div class="single-blog-item">
 										<div class="blog-thumnail">
-											<a href=""><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
+											<a href="${pageContext.request.contextPath}/user/readform"><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
 										</div>
 										<div class="blog-content">
 											<h4>
-												<a href="#">Lorem ipsum dolor sit amet</a>
+												<a href="${pageContext.request.contextPath}/user/readform">Lorem ipsum dolor sit amet</a>
 											</h4>
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing
 												elit. Sint expedita exercitationem nostrum, eligendi quis,
 												esse quos atque in molestias animi.</p>
-											<a href="" class="more-btn">View More</a>
+											<a href="${pageContext.request.contextPath}/user/readform" class="more-btn">View More</a>
 										</div>
 										<span class="blog-date">좋아요 99</span>
 									</div>
@@ -144,16 +144,16 @@
 								<div class="col-md-4">
 									<div class="single-blog-item">
 										<div class="blog-thumnail">
-											<a href=""><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
+											<a href="${pageContext.request.contextPath}/user/readform"><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
 										</div>
 										<div class="blog-content">
 											<h4>
-												<a href="#">Lorem ipsum dolor sit amet</a>
+												<a href="${pageContext.request.contextPath}/user/readform">Lorem ipsum dolor sit amet</a>
 											</h4>
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing
 												elit. Sint expedita exercitationem nostrum, eligendi quis,
 												esse quos atque in molestias animi.</p>
-											<a href="" class="more-btn">View More</a>
+											<a href="${pageContext.request.contextPath}/user/readform" class="more-btn">View More</a>
 										</div>
 										<span class="blog-date">좋아요 99</span>
 									</div>

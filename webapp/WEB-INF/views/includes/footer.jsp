@@ -23,9 +23,9 @@
 <body>
 <footer class="container-fluid text-center bg-lightgray">
 
-        <div class="copyrights" style="margin-top:120px;">
+        <div class="copyrights" style="margin-top:30px;">
             <p>이용약관  /  개인정보처리방침  /  운영정책  /  고객센터 </p>
-            <br><br><br>
+            <br><br><br><br><br><br>
             <p>GaEat © 2017, All Rights Reserved</p>
         </div>
 </footer>
@@ -34,9 +34,3 @@
 
 </script>
 </body>
-<div id="footer">
-	<br>
-	<p>(c)Gaeat 2017</p>
-</div>
-<!-- /footer -->
->>>>>>> branch 'master' of https://github.com/funsadbored2/gaeat01.git

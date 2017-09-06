@@ -212,6 +212,8 @@
 	<br>
 	<br>
 	<br>
+	<hr style="border: solid 1px #528540;">
+	<br>
 	<br>
 	<br>
 	<!-- 갤러리 -->

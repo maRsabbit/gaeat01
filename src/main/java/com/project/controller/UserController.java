@@ -48,8 +48,14 @@ public class UserController {
 	}
 
 	@RequestMapping(value="userpage", method=RequestMethod.GET)
-	public String mypage() {
+	public String userpage() {
 		
 		return "user/userpage";
+	}
+	
+	@RequestMapping(value="select", method=RequestMethod.GET)
+	public String select() {
+		
+		return "user/select";
 	}
 }

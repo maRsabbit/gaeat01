@@ -6,6 +6,7 @@
 
 <head>
 
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/img/favicon.ico"/>
 <title>가릿 - 가려서 먹자</title>
 
 </head>

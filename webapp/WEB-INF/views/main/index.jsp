@@ -6,18 +6,21 @@
 
 <head>
 
+
+<link href="${pageContext.request.contextPath}/assets/css/loginform.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/assets/css/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="${pageContext.request.contextPath}/assets/js/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/assets/bootstrap/js/bootstrap.min.js"></script>
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/img/favicon.ico"/>
+
 <title>가릿 - 가려서 먹자</title>
 
 </head>
 
-
-
 <body id="page-top">
-
 	
 <c:import url="/WEB-INF/views/includes/headNav.jsp"></c:import>	
-
 	
 		<!-- 캐러셀 -->
 		<div id="carousel-generic" class="carousel slide">
@@ -58,7 +61,7 @@
         
         <!-- 캐러셀 밑부부의 트렌드 부분 -->
         <!-- 노란색 뜨는 거 무시하세요 -->
-        <div class = "container service" style = "margin-top: 50px">
+        <div class = "container service" style = "margin-top: 0px">
         	<div class = "row">
         		<div class = "col-xs-3 trendBlock">
         			<a href = "#">
@@ -142,9 +145,5 @@
 			return false;
 		});
 	});
-	
-		
-	})
-	
     </script>
 </html>

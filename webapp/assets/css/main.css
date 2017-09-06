@@ -15,8 +15,8 @@ body {font-family: "NanumBarunGothic",  sans-serif; padding-top: 90px; }
 
 
 /* nav bar customize */
-.navbar{ background-color: #e6ffe6; border: none; padding-bottom: 10px;  font-family: 'Source Sans Pro', sans-serif; font-weight: 300; 
-		font-size: 18px;height: 90px; text-transform: capitalize; border-bottom: 1px solid #AAAAAA;}
+.navbar{ background-color: #EBFFEB; border: none; padding-bottom: 10px;  font-family: 'Source Sans Pro', sans-serif; font-weight: 300; 
+		font-size: 18px;height: 60px; text-transform: capitalize; border-bottom: 1px solid #AAAAAA;}
 
 .navbar-toggle {position: relative;margin-top: 40px;top: 2px;}
 .navbar-nav { padding-right: 10px;margin-top: 20px; background-color: #fff}

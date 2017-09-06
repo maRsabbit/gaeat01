@@ -1,15 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
-    <title>flex box slide jquery - Bootsnipp.com</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
-        @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/icon?family=Material+Icons);
 * {
   -moz-box-sizing: border-box;
@@ -137,13 +138,6 @@ body {
   cursor: default;
 }
 
-    </style>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-</head>
-<body>
-<!-- styles personnalisés pour chaque slider -->
-<style>
   .container {
     max-width: 960px;
     margin: 0 auto;
@@ -190,9 +184,14 @@ body {
     font-size: 50px;
     text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.6);
   }
-</style>
+
+    </style>
+    
+</head>
+<body>
+<!-- styles personnalisés pour chaque slider -->
+
 <div class="container">
- 
 
   <div id="slider-3" class="slider">
 
@@ -219,6 +218,7 @@ body {
     <a href="#" class="slider-button--next">
       <i class="material-icons">chevron_right</i>
     </a>
+  </div>
   </div>
 
  

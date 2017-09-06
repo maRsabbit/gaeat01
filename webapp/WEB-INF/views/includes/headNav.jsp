@@ -150,6 +150,23 @@
 .form-control {
 	border-radius: 0px;
 }
+
+.searchbar-btn-custom {
+  background-color: hsl(145, 31%, 71%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0efe6", endColorstr="#9ecbb1");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e0efe6), to(#9ecbb1));
+  background-image: -moz-linear-gradient(top, #e0efe6, #9ecbb1);
+  background-image: -ms-linear-gradient(top, #e0efe6, #9ecbb1);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e0efe6), color-stop(100%, #9ecbb1));
+  background-image: -webkit-linear-gradient(top, #e0efe6, #9ecbb1);
+  background-image: -o-linear-gradient(top, #e0efe6, #9ecbb1);
+  background-image: linear-gradient(#e0efe6, #9ecbb1);
+  border-color: #9ecbb1 #9ecbb1 hsl(145, 31%, 66%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
 </style>
 </head>
 
@@ -160,16 +177,16 @@
 
 
 <div class="container-fluid">
-	<div class="container">
-		<nav class="navbar navbar-default navbar-fixed-top"  role="navigation" id="navbar-scroll">
+	
+		<nav class="navbar navbar-fixed-top"  role="navigation" id="navbar-scroll" style = "margin-bottom:10px">
 		
 			<!-- toggle -->
-			<div class="container">
+			<div class="container-fluid">
 	
-				<div class="col-xs-1" style = margin: >
+				<div class="col-xs-1">
 				<a id="main" style = "z-index:1">
        				
-       				<span style="font-size:50px; cursor:pointer ;color:#528540;" onclick="openNav()">&#9776;</span></a>
+       				<span style="font-size:40px; cursor:pointer ;color:#528540; margin-right:90px" onclick="openNav()">&#9776;</span></a>
 				
 					<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -317,23 +334,23 @@
 				</script>
 				
 				<!-- searchbar -->
-				<div class="col-xs-10" style = "z-inde:-1">
-					<div id="custom-search-input" >
+				<div class="col-xs-10" style = "z-inde:-1;">
+					<div id="custom-search-input " style ="display: table; margin-left: auto; margin-right: auto;">
 						<div class="input-group" >
-							<input type="text" class="search-query form-control" style = "margin-bottom:10px; margin-top:8px" placeholder="Search" /> <span class="input-group-btn">
-								<button class="btn btn-danger" type="button">
-									<span class=" glyphicon glyphicon-search"></span>
+							<input type="text" class="search-query form-control" style = "margin-bottom:10px; margin-top:10px; width:800px; height:auto; float:left" placeholder="제외하고 싶은 재료 앞에 -를 붙여주세요!!"   /> 
+							<span class="input-group-btn">
+								<button class="btn searchbar-btn-custom" type="button">
+									<span class="glyphicon glyphicon-search"></span>
 								</button>
 							</span>
 						</div>
 					</div>
 				</div>
-		
-
+				
 			<!-- mainLogo -->
 			<div class="col-xs-1">
 				
-			<a href="#"><img src="${pageContext.request.contextPath}/assets/img/mainLogo.png" style = "margin-bottom:10px; margin-top:10px; margin-left:100px;"  alt="logo.png"></a>
+			<a href="#"><img src="${pageContext.request.contextPath}/assets/img/mainLogo.png" style = "margin-bottom:10px; margin-top:10px; margin-left:90px;"  alt="logo.png"></a>
 					
 			</div>
 				<!--   <div class = "collapse navbar-collapse navbar-left navbar-ex1-collapse">
@@ -347,7 +364,7 @@
 			</div>
 		</nav>
 	</div>
-</div>
+
 <!-- 최초 로그인 폼 끝 -->
 	<script type="text/javascript">
 		/* #####################################################################

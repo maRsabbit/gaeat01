@@ -339,7 +339,7 @@
 						<div class="input-group" >
 							<input type="text" class="search-query form-control" style = "margin-bottom:10px; margin-top:10px; width:800px; height:auto; float:left" placeholder="제외하고 싶은 재료 앞에 -를 붙여주세요!!"   /> 
 							<span class="input-group-btn">
-								<button class="btn searchbar-btn-custom" type="button">
+								<button class="btn searchbar-btn-custom" type="submit" value = "">
 									<span class="glyphicon glyphicon-search"></span>
 								</button>
 							</span>

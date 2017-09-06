@@ -311,7 +311,7 @@
 			<!-- 최초 로그인 폼 끝 -->
 												
 
-						<a href="#">사용자의 소개나 설정한 정보를 뿌릴 영역입니다.</a>
+						<a href="${pageContext.request.contextPath }/user/userpage">사용자의 소개나 설정한 정보를 뿌릴 영역입니다.</a>
 						
 						<p>~~님의 프로필입니다.</p>
 						<hr style="border: solid 1px #528540;">

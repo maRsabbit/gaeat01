@@ -189,7 +189,7 @@
        				<span style="font-size:40px; cursor:pointer ;color:#528540; margin-right:90px" onclick="openNav()">&#9776;</span></a>
 				
 					<div id="mySidenav" class="sidenav">
-				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 						
 						<!-- 로그인 버튼 -->
 						
@@ -197,7 +197,7 @@
 								<p class="text-center">
 									<a href="#login-modal" id="modalBtn" class="btn btn-primary btn-sm" 
 									role="button" data-toggle="modal" data-backdrop="false">
-										로그인
+										로그인/회원가입
 									</a>
 								</p>
 							</div>
@@ -323,7 +323,7 @@
 					function openNav() {
 						document.getElementById("mySidenav").style.width = "250px";
 						document.getElementById("main").style.marginLeft = "0px";//사이드메뉴가 클릭되면 메인을 왼쪽으로 옮길지 ?
-						document.body.style.backgroundColor = "rgba(0,0,0,0.9)";
+						/* document.body.style.backgroundColor = "#E1FFE1"; */
 					}
 				
 					function closeNav() {

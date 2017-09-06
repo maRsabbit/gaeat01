@@ -23,6 +23,7 @@
 <c:import url="/WEB-INF/views/includes/headNav.jsp"></c:import>	
 	
 		<!-- 캐러셀 -->
+	<div class = "container-fluid" style ="width:1300px">
 		<div id="carousel-generic" class="carousel slide">
 		
 	         <!--  Indicators -->
@@ -57,6 +58,8 @@
               <img src="${pageContext.request.contextPath}/assets/img/carousel/right.png" class="control">
             </a>
         </div>
+        
+       </div>
         
         
         <!-- 캐러셀 밑부부의 트렌드 부분 -->

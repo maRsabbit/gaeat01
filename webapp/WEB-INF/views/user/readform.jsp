@@ -115,11 +115,11 @@
 							<article>
 							<p>
 								<img
-									href="${pageContext.request.contextPath}/assets/img/time.png"
+									src="${pageContext.request.contextPath}/assets/img/time.png"
 									alt="post img"
 									class="pull-left img-responsive postImg img-thumbnail margin10">
 								<img
-									href="${pageContext.request.contextPath}/assets/img/rank.png"
+									src="${pageContext.request.contextPath}/assets/img/rank.png"
 									alt="post img"
 									class="pull-left img-responsive postImg img-thumbnail margin10">
 							</p>

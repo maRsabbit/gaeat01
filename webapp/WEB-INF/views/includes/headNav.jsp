@@ -335,7 +335,7 @@
 					}
 				</script>
 				
-				<!-- searchbar -->
+				<!-- searchbar 입니다.-->
 				<div class="col-xs-10" style = "z-inde:-1;">
 					<div id="custom-search-input " style ="display: table; margin-left: auto; margin-right: auto;">
 						<div class="input-group" >

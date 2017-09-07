@@ -339,9 +339,10 @@
 				<div class="col-xs-10" style = "z-inde:-1;">
 					<div id="custom-search-input " style ="display: table; margin-left: auto; margin-right: auto;">
 						<div class="input-group" >
-							<input type="text" class="search-query form-control" style = "margin-bottom:10px; margin-top:10px; width:600px; height:40px; float:left; border-style: solid; border-color:green;" placeholder="제외하고 싶은 재료 앞에 -를 붙여주세요!!"   /> 
+							<input type="text" class="search-query form-control" style = "margin-bottom:10px; margin-top:10px; width:600px; height:40px; float:left; 
+							border-style: solid; border-color:green; border-width:thin ;" placeholder="제외하고 싶은 재료 앞에 -를 붙여주세요!!"   /> 
 							<span class="input-group-btn">
-								<button class="btn searchbar-btn-custom" type="submit" style = "height:40px; border-style: solid; border-color:green;" value = "">
+								<button class="btn searchbar-btn-custom" type="submit" style = "height:40px; border-style: solid; border-color:green; border-width:thin ;" value = "">
 									<span class="glyphicon glyphicon-search"></span>
 								</button>
 							</span>

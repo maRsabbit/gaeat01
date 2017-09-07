@@ -70,14 +70,13 @@ body {
     background-color: #e8e8e8;
 }
 
-
-
-
-
-img {
+.foodimage{
+	
 	width: 100%;
 	height: auto;
+	
 }
+
 .single-blog-item {
   border: 1px solid #dfdede;
   box-shadow: 2px 5px 10px #dfdede;

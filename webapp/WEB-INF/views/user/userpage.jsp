@@ -46,7 +46,7 @@
 					<div class="panel-body">
 						<div class="media">
 							<div align="center">
-								<img class="thumbnail img-responsive" src="${pageContext.request.contextPath}/assets/img/KTH.png" width="300px" height="300px">
+								<img class="thumbnail img-responsive " src="${pageContext.request.contextPath}/assets/img/KTH.png" width="300px" height="300px">
 							</div>
 
 							<!--  왼쪽부분 -->
@@ -108,7 +108,7 @@
 								<div class="col-md-4">
 									<div class="single-blog-item">
 										<div class="blog-thumnail">
-											<a href="${pageContext.request.contextPath}/user/readform"><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
+											<a href="${pageContext.request.contextPath}/user/readform"><img src="${pageContext.request.contextPath}/assets/img/2.jpg" class ="foodimage" alt="blog-img"></a>
 										</div>
 										<div class="blog-content">
 											<h4>
@@ -126,7 +126,7 @@
 								<div class="col-md-4">
 									<div class="single-blog-item">
 										<div class="blog-thumnail">
-											<a href="${pageContext.request.contextPath}/user/readform"><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
+											<a href="${pageContext.request.contextPath}/user/readform"><img src="${pageContext.request.contextPath}/assets/img/2.jpg" class ="foodimage" alt="blog-img"></a>
 										</div>
 										<div class="blog-content">
 											<h4>
@@ -144,7 +144,7 @@
 								<div class="col-md-4">
 									<div class="single-blog-item">
 										<div class="blog-thumnail">
-											<a href="${pageContext.request.contextPath}/user/readform"><img src="${pageContext.request.contextPath}/assets/img/2.jpg" alt="blog-img"></a>
+											<a href="${pageContext.request.contextPath}/user/readform"><img src="${pageContext.request.contextPath}/assets/img/2.jpg" class ="foodimage" alt="blog-img"></a>
 										</div>
 										<div class="blog-content">
 											<h4>

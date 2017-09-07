@@ -340,7 +340,7 @@
 								<div class="panel panel-default widget">
 									<div class="panel-heading">
 										<span class="glyphicon glyphicon-comment"></span>
-										<h3 class="panel-title">Reply</h3>
+										
 
 
 									</div>

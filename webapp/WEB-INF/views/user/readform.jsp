@@ -142,7 +142,7 @@
 						<!-- 재료기입 -->
 
 
-						<p>재료 표가 들어가는 칸</p>
+						
 						
 						<div class="container">
     <div class="row">
@@ -266,9 +266,7 @@
 						</div>
 
 
-						<h4>
-							<p>조리순서</p>
-						</h4>
+						
 						<div class="container">
 							<div class="row">
 								<div class="well">
@@ -335,8 +333,7 @@
 							</div>
 						</div>
 
-						<p>댓글 댓글</p>
-
+						
 						<div class="container">
 							
 
@@ -385,14 +382,14 @@
 												<fieldset>
 													<div class="form-group">
 														<textarea class="form-control" rows="3"
-															placeholder="Write in your wall" autofocus=""></textarea>
+															placeholder="Write in your wall"></textarea>
 
 
 													</div>
 
 
 													<button type="submit" class="[ btn btn-success ]"
-														data-loading-text="Loading...">Post reply</button>
+														data-loading-text>Post reply</button>
 												</fieldset>
 											</form>
 										</div>
@@ -417,9 +414,8 @@
 					</div>
 				</div>
 
-				<p>레시피 레시피</p>
-				
-				<p>ddddd</p>
+								
+			
 				<div class="container">
 							<div class="row">
 								<div class="col-md-4">

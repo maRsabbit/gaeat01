@@ -178,15 +178,17 @@
 
 <div class="container-fluid">
 	
-		<nav class="navbar navbar-fixed-top"  role="navigation" id="navbar-scroll" style = "margin-bottom:10px">
+		<nav class="navbar navbar-fixed-top"  role="navigation" id="navbar-scroll" style = "margin-bottom:0px">
 		
+		
+			<div class="container-fluid" style = "width:1300px; heigt:auto">
 			<!-- toggle -->
-			<div class="container-fluid">
+			
 	
-				<div class="col-xs-1">
+				<div class="col-xs-1" style = "margin-left:0px">
 				<a id="main" style = "z-index:1">
        				
-       				<span style="font-size:40px; cursor:pointer ;color:#528540; margin-right:90px" onclick="openNav()">&#9776;</span></a>
+       				<span style="font-size:40px; cursor:pointer ;color:#528540;" onclick="openNav()">&#9776;</span></a>
 				
 					<div id="mySidenav" class="sidenav">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -337,9 +339,9 @@
 				<div class="col-xs-10" style = "z-inde:-1;">
 					<div id="custom-search-input " style ="display: table; margin-left: auto; margin-right: auto;">
 						<div class="input-group" >
-							<input type="text" class="search-query form-control" style = "margin-bottom:10px; margin-top:10px; width:800px; height:auto; float:left" placeholder="제외하고 싶은 재료 앞에 -를 붙여주세요!!"   /> 
+							<input type="text" class="search-query form-control" style = "margin-bottom:10px; margin-top:10px; width:600px; height:40px; float:left; border-style: solid; border-color:green;" placeholder="제외하고 싶은 재료 앞에 -를 붙여주세요!!"   /> 
 							<span class="input-group-btn">
-								<button class="btn searchbar-btn-custom" type="submit" value = "">
+								<button class="btn searchbar-btn-custom" type="submit" style = "height:40px; border-style: solid; border-color:green;" value = "">
 									<span class="glyphicon glyphicon-search"></span>
 								</button>
 							</span>
@@ -350,7 +352,7 @@
 			<!-- mainLogo -->
 			<div class="col-xs-1">
 				
-			<a href="#"><img src="${pageContext.request.contextPath}/assets/img/mainLogo.png" style = "margin-bottom:10px; margin-top:10px; margin-left:90px;"  alt="logo.png"></a>
+			<a href="#"><img src="${pageContext.request.contextPath}/assets/img/mainLogo.png" style = "margin-bottom:19px; margin-top:10px; margin-left:40px;"  alt="logo.png"></a>
 					
 			</div>
 				<!--   <div class = "collapse navbar-collapse navbar-left navbar-ex1-collapse">

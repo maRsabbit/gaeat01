@@ -23,6 +23,12 @@
 textarea.autosize {
 	min-height: 500px;
 }
+
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
 </style>
 </head>
 <body>
@@ -54,43 +60,51 @@ textarea.autosize {
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="category" class="col-sm-2 control-label">카테고리</label> <select
-					class="col-sm-3" name="종류별">
-					<option value="">종류별</option>
-					<option value="밑반찬">밑반찬</option>
-					<option value="메인반찬">메인반찬</option>
-					<option value="국/탕">국/탕</option>
-					<option value="찌개">찌개</option>
-					<option value="디저트">디저트</option>
-					<option value="면/만두">면/만두</option>
-					<option value="밥/죽/떡">밥/죽/떡</option>
-					<option value="퓨전">퓨전</option>
-					<option value="김치/젓갈/장류">김치/젓갈/장류</option>
-					<option value="양념/소스/잼">양념/소스/잼</option>
-					<option value="양식">양식</option>
-					<option value="샐러드">샐러드</option>
-					<option value="스프">스프</option>
-					<option value="빵">빵</option>
-					<option value="과자">과자</option>
-					<option value="차/음료/술">차/음료/술</option>
-					<option value="기타">기타</option>
-				</select> <select class="col-sm-3" name="방법별">
-					<option value="">방법별</option>
-					<option value="볶음">볶음</option>
-					<option value="끓이기">끓이기</option>
-					<option value="부침">부침</option>
-					<option value="조림">조림</option>
-					<option value="무침">무침</option>
-					<option value="비빔">비빔</option>
-					<option value="찜">찜</option>
-					<option value="절임">절임</option>
-					<option value="튀김">튀김</option>
-					<option value="삶기">삶기</option>
-					<option value="굽기">굽기</option>
-					<option value="데치기">데치기</option>
-					<option value="회">회</option>
-					<option value="기타">기타</option>
-				</select>
+			<div class = "col-sm-2" style = "float:left">
+				<label for="category" class="control-label">카테고리</label>
+			</div>
+			<div class = "col-sm-3" style = "floar:left;"> 
+					<select
+						class="form-control" name="종류별">
+						<option value="">종류별</option>
+						<option value="밑반찬">밑반찬</option>
+						<option value="메인반찬">메인반찬</option>
+						<option value="국/탕">국/탕</option>
+						<option value="찌개">찌개</option>
+						<option value="디저트">디저트</option>
+						<option value="면/만두">면/만두</option>
+						<option value="밥/죽/떡">밥/죽/떡</option>
+						<option value="퓨전">퓨전</option>
+						<option value="김치/젓갈/장류">김치/젓갈/장류</option>
+						<option value="양념/소스/잼">양념/소스/잼</option>
+						<option value="양식">양식</option>
+						<option value="샐러드">샐러드</option>
+						<option value="스프">스프</option>
+						<option value="빵">빵</option>
+						<option value="과자">과자</option>
+						<option value="차/음료/술">차/음료/술</option>
+						<option value="기타">기타</option>
+					</select> 
+				</div>
+				<div class = "col-sm-3 howtocook" style = "float:left">
+					<select class = "form-control" name="방법별">
+						<option value="">방법별</option>
+						<option value="볶음">볶음</option>
+						<option value="끓이기">끓이기</option>
+						<option value="부침">부침</option>
+						<option value="조림">조림</option>
+						<option value="무침">무침</option>
+						<option value="비빔">비빔</option>
+						<option value="찜">찜</option>
+						<option value="절임">절임</option>
+						<option value="튀김">튀김</option>
+						<option value="삶기">삶기</option>
+						<option value="굽기">굽기</option>
+						<option value="데치기">데치기</option>
+						<option value="회">회</option>
+						<option value="기타">기타</option>
+					</select>
+				</div>
 			</div>
 			<div class="form-group">
 				<label for="category" class="col-sm-2 control-label" padding="5px">카테고리</label>

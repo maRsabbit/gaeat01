@@ -37,10 +37,15 @@
          <!--   캐러셀 items -->
            <div class="carousel-inner">
               <div class="item active">
+              
                  <img src="${pageContext.request.contextPath}/assets/img/carousel/food1.jpg" alt="First slide">
+              
               </div>
               <div class="item">
-                 <img src="${pageContext.request.contextPath}/assets/img/carousel/food.jpg" alt="Second slide">              
+              
+              	<video src="${pageContext.request.contextPath}/assets/video/videoex.mp4" autoplay></video>
+               <%--   <img src="${pageContext.request.contextPath}/assets/img/carousel/food.jpg" alt="Second slide">            --%>   
+ 
               </div>
               <div class="item">
                  <img src="${pageContext.request.contextPath}/assets/img/carousel/food3.jpg" alt="Third slide">               

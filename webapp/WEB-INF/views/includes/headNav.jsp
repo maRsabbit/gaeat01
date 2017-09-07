@@ -353,17 +353,10 @@
 			<!-- mainLogo -->
 			<div class="col-xs-1">
 				
-			<a href="#"><img src="${pageContext.request.contextPath}/assets/img/mainLogo.png" style = "margin-bottom:19px; margin-top:10px; margin-left:40px;"  alt="logo.png"></a>
+			<a href="${pageContext.request.contextPath}/main/index"><img src="${pageContext.request.contextPath}/assets/img/mainLogo.png" 
+			style = "margin-bottom:19px; margin-top:10px; margin-left:40px;"  alt="logo.png"></a>
 					
 			</div>
-				<!--   <div class = "collapse navbar-collapse navbar-left navbar-ex1-collapse">
-			    	<ul class = "nav navbar-nav">
-			    		<li><a href = "#"></a></li>
-			    		<li><a href = "#"></a></li>
-			    		<li><a href = "#"></a></li>
-			    		<li><a href = "#"></a></li>
-			    	</ul>
-			    </div> -->
 			</div>
 		</nav>
 	</div>
